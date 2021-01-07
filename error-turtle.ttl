@@ -1,1 +1,3 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
 <https://rdflib.readthedocs.io/en/stable/intro_to_parsing.html> rdfs:label "Error file" .
