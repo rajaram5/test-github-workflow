@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [push]
+
+jobs:
+  greeting:
+    name: greeting
+    runs-on: ubuntu-latest
+    steps:
+    - uses: techulus/push-github-action@1.0.0
+      with:
+        API_KEY: ${{ secrets.API_KEY }}
+        MESSAGE: "There is a new commit by Rajaram!"
