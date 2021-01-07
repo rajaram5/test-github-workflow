@@ -1,1 +1,6 @@
-print("Hello!! from python")
+x = 1
+
+if x > 0:
+    raise SystemExit('error in code want to exit')
+else:
+    print("RDF files syntaxic validation is done")
