@@ -29,19 +29,19 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
         
-      # Setup python 3
+      # Setup python 3.8
       - name: Setup python
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
           
-      # Install Python dependencies
+      # Install python script dependencies
       - name: Install Python dependencies
         uses: py-actions/py-dependency-install@v2
         with:
           path: "scripts/requirements.txt"
 
       # Runs a python script
-      - name: Run a python script
+      - name: Check syntaxic validation of RDF files
         run: |
           python scripts/run.py
