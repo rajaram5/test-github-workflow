@@ -1,4 +1,4 @@
-x = 1
+x = 0
 
 if x > 0:
     raise SystemExit('error in code want to exit')
